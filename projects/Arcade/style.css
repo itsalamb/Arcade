@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#board {
+    margin-left: 20vw;
+    padding-top: 5vw;
+    display: flex;
+    flex-wrap: wrap;
+    width: 60vw;
+    height: 60vw;
+    padding-bottom: 5vw;
+}
+
+.cell {
+    display: flex;
+    font-family: "Permanent Marker", cursive;
+    width: 20vw;
+    height: 20vw;
+    border: 1px solid #333333;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    font-size: 10vw;
+}
+
+#player-turn {
+    padding-top: 10vw;
+}
+
+#title {
+    padding-bottom: 5vw;
+}
+
